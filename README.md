@@ -22,14 +22,14 @@ Import the module into your JavaScript or TypeScript node file (`import { subPro
 
 Use the appropriate function to run a child process, 
 ```
-subProcessSync(<owner>, <command>, <showOutput>)
+subProcessSync(<command>, <showOutput>)
 subProcess(<owner>, <command>, <showOutput>)
 ```
 
 e.g.
 
 Synchronous:
-`subProcessSync('build', 'npm run tsc', true)`
+`subProcessSync('npm run tsc', true)`
 
 This will block execution until the command completes, so no "child process" needs to be cleaned up at the end.
 
