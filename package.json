@@ -1,0 +1,25 @@
+{
+  "name": "subprocess",
+  "version": "1.0.0",
+  "description": "An npm library for spawning (and killing) synchronous and asynchronous \"sub processes\" from node.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craigwardman/subprocess.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/craigwardman/subprocess/issues"
+  },
+  "homepage": "https://github.com/craigwardman/subprocess#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.17"
+  }
+}
