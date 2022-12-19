@@ -1,4 +1,4 @@
-# procspawn
+# subspawn
 An npm library for spawning (and killing) synchronous and asynchronous sub processes from node.
 
 This package is a wrapper around Node's `child_process` library, which offers the ability to create child processes but isn't as easy
@@ -14,9 +14,9 @@ The original use-case for this module was for use in a complex npm build script,
 more sense than daisy chaining lots of "npm" commands together. You can read more about this too on my blog: http://www.craigwardman.com/Blogging/BlogEntry/writing-an-npm-startup-script-in-typescript-to-support-complex-scenarios
 
 # usage
-Install the package into your application of choice the usual way (`npm i procspawn`)
+Install the package into your application of choice the usual way (`npm i subspawn`)
 
-Import the module into your JavaScript or TypeScript node file (`import { subProcess, subProcessSync } from 'procspawn'`)
+Import the module into your JavaScript or TypeScript node file (`import { subProcess, subProcessSync } from 'subspawn'`)
 
 &nbsp;
 
