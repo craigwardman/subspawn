@@ -1,5 +1,5 @@
 # procspawn
-An npm library for spawning (and killing) synchronous and asynchronous "sub processes" from node.
+An npm library for spawning (and killing) synchronous and asynchronous sub processes from node.
 
 This package is a wrapper around Node's `child_process` library, which offers the ability to create child processes but isn't as easy
 to get working as you might hope. 
