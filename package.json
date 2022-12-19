@@ -1,5 +1,5 @@
 {
-  "name": "subprocess",
+  "name": "procspawn",
   "version": "1.0.0",
   "description": "An npm library for spawning (and killing) synchronous and asynchronous \"sub processes\" from node.",
   "main": "dist/index.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/craigwardman/subprocess.git"
+    "url": "git+https://github.com/craigwardman/procspawn.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/craigwardman/subprocess/issues"
+    "url": "https://github.com/craigwardman/procspawn/issues"
   },
-  "homepage": "https://github.com/craigwardman/subprocess#readme",
+  "homepage": "https://github.com/craigwardman/procspawn#readme",
   "devDependencies": {
     "@types/node": "^18.11.17"
   }
