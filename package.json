@@ -1,6 +1,6 @@
 {
   "name": "subspawn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An npm library for spawning (and killing) synchronous and asynchronous \"sub processes\" from node.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

@@ -22,6 +22,14 @@ export const killSubProcesses = function (owner: string) {
 };
 
 process.on('exit', () => Object.keys(children).forEach((owner) => killSubProcesses(owner)));
+function gracefulExitHandler() {
+  console.log('Handling termination signal to gracefully exit process')
+  process.exit()
+}
+
+process.on('SIGINT', gracefulExitHandler)
+process.on('SIGTERM', gracefulExitHandler)
+process.on('SIGQUIT', gracefulExitHandler)
 
 const spawnSubProcess = (owner: string, command: string, showOutput: boolean) => {
   const [binary, ...rest] = command.split(' ');
