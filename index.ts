@@ -57,9 +57,9 @@ const spawnSubProcessOnWindows = (owner: string, command: string, showOutput: bo
 
 export const subProcess = (owner: string, command: string, showOutput: boolean) => {
   if (process.platform === 'win32') {
-    spawnSubProcessOnWindows(owner, command, showOutput);
+    return spawnSubProcessOnWindows(owner, command, showOutput);
   } else {
-    spawnSubProcess(owner, command, showOutput);
+    return spawnSubProcess(owner, command, showOutput);
   }
 };
 
