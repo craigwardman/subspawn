@@ -21,5 +21,6 @@
   "homepage": "https://github.com/craigwardman/subspawn#readme",
   "devDependencies": {
     "@types/node": "^18.11.17"
-  }
+  },
+  "packageManager": "pnpm@8.10.2+sha256.487609e857f1c11780cc98dd0bfe4c8a8b11c7f23bc3a4493ac7d263d6fb6c8c"
 }
